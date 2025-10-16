@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-10-16 18:40:39",
+  "total_params": 2589514,
+  "trainable_params": 1857418,
+  "non_trainable_params": 732096,
+  "num_layers": 7,
+  "input_shape": "(None, 224, 224, 3)",
+  "output_shape": "(None, 10)"
+}

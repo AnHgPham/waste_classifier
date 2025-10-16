@@ -14,6 +14,7 @@ OUTPUTS_DIR = os.path.join(PROJECT_ROOT, "outputs")
 MODELS_DIR = os.path.join(OUTPUTS_DIR, "models")
 LOGS_DIR = os.path.join(OUTPUTS_DIR, "logs")
 REPORTS_DIR = os.path.join(OUTPUTS_DIR, "reports")
+SCREENSHOTS_DIR = os.path.join(OUTPUTS_DIR, "screenshots")
 
 # ==================== DATA ====================
 DATASET_NAME = "sumn2u/garbage-classification-v2"

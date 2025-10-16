@@ -1,35 +1,329 @@
+# ==============================================================================
 # Python
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-*.egg-info/
-dist/
-build/
 
-# Virtual environments
-.venv/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
 venv/
 ENV/
-env/
+env.bak/
+venv.bak/
 
-# IDE
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ==============================================================================
+# Machine Learning / Deep Learning
+# ==============================================================================
+
+# TensorFlow
+*.ckpt
+*.ckpt.data-*
+*.ckpt.index
+*.ckpt.meta
+checkpoint
+events.out.tfevents.*
+*.tfrecord
+
+# Keras
+*.h5
+*.hdf5
+
+# PyTorch
+*.pt
+*.pth
+*.onnx
+
+# Model files (uncomment if you want to ignore models)
+# outputs/models/*.keras
+# outputs/models/*.h5
+
+# Training logs (uncomment if you want to ignore logs)
+# outputs/logs/
+
+# TensorBoard
+runs/
+logs/
+tensorboard/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# ==============================================================================
+# Data
+# ==============================================================================
+
+# Large datasets (uncomment to ignore raw data)
+# data/raw/
+# data/processed/
+
+# Temporary data files
+*.csv
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+
+# Visual Studio Code
 .vscode/
+*.code-workspace
+.history/
+
+# PyCharm
 .idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
 *.swp
 *.swo
+*~
+.vim/
 
-# Data
-data/
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
-# Outputs
-outputs/
+# ==============================================================================
+# Operating Systems
+# ==============================================================================
 
-# Logs
-*.log
-
-# OS
+# macOS
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
 
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# Project Specific
+# ==============================================================================
+
+# Screenshots (uncomment if you don't want to track screenshots)
+# outputs/screenshots/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# YOLO weights (will be auto-downloaded)
+yolov8*.pt
+*.weights
+
+# Kaggle credentials
+kaggle.json
+
+# Custom ignore
+*.bak
+*.backup
+.backup/
+
+# ==============================================================================
+# Documentation
+# ==============================================================================
+
+# Build artifacts
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ==============================================================================
+# CI/CD
+# ==============================================================================
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Test outputs
+test-results/
+test-reports/
+
+# ==============================================================================
+# Miscellaneous
+# ==============================================================================
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Secrets and credentials
+.secrets/
+secrets.yaml
+credentials.json
+*.key
+*.pem
+
+# Local configuration
+config.local.py
+settings.local.py
